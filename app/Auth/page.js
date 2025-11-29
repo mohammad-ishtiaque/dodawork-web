@@ -11,14 +11,14 @@ const page = () => {
             {/* Left Section */}
             <div className="flex flex-col items-center justify-center bg-[url('/grp1.svg')] bg-no-repeat bg-cover bg-center px-4 py-8 md:min-h-screen md:px-0">
                 <Image
-                    src="/logo.svg"
+                    src="/logo-dodaa.png"
                     alt="Picture of the logo"
-                    className="pt-5 w-24 sm:w-32 md:w-48 lg:w-56"
-                    width={0}
-                    height={0}
+                    className="pt-5 w-20 sm:w-32 md:w-48 lg:w-56 h-auto"
+                    width={800}
+                    height={800}
                 />
 
-                <h1 className="mt-6 text-[#080808] text-xl sm:text-2xl md:text-5xl font-bold leading-snug text-center">
+                <h1 className="mt-6 text-white text-xl sm:text-2xl md:text-5xl font-bold leading-snug text-center">
                     Welcome to Dodawork
                 </h1>
             </div>
