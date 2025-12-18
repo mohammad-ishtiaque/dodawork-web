@@ -48,7 +48,7 @@ const PreviewPage = () => {
             {/* Hero Image - Placeholder as per design */}
             <div className="w-full h-48 sm:h-64 relative rounded-2xl overflow-hidden mb-8">
                 <Image
-                    src="/COVER.png" // Assuming we might need a placeholder or use one of the uploaded images if available, using a placeholder for now as per design image
+                    src="/COVER.png"
                     alt="Service Location"
                     fill
                     className="object-cover"
@@ -129,7 +129,7 @@ const PreviewPage = () => {
                     Edit
                 </Button>
 
-                <Button onClick={() => alert("Matched!")}>
+                <Button onClick={() => router.push('/track-service')}>
                     Get Matched
                 </Button>
             </div>
